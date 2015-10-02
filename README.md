@@ -1,25 +1,36 @@
-# Ember-local-forage
+# ember-local-forage
 
-This README outlines the details of collaborating on this Ember addon.
+Easily add [localForage][localForage] to your ember-cli app.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+If you're using ember-cli v0.2.3+:
 
-## Running
+```no-highlight
+ember install ember-local-forage
+```
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+If you're using an older version of ember-cli:
 
-## Running Tests
+```no-highlight
+npm install ember-local-forage --save-dev
+```
 
-* `ember test`
-* `ember test --server`
+## Usage
 
-## Building
+And then in your ember.js app, you can import `localforage`
 
-* `ember build`
+```
+import localforage from 'ember-local-forage';
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+localforage.setItem('key', 'value') //returns a promise
+
+```
+
+For more information on how to use localForage see the [localForage][localForage] documentation
+
+
+
+
+[bower]: http://bower.io "bower"
+[localForage]: https://github.com/mozilla/localForage "localForage"
