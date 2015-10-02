@@ -20,17 +20,13 @@ npm install ember-local-forage --save-dev
 
 And then in your ember.js app, you can import `localforage`
 
-```
+```javascript
 import localforage from 'ember-local-forage';
 
 localforage.setItem('key', 'value') //returns a promise
-
 ```
 
-For more information on how to use localForage see the [localForage][localForage] documentation
-
-
-
+For more information on how to use localForage see the [localForage][localForage] documentation.
 
 [bower]: http://bower.io "bower"
 [localForage]: https://github.com/mozilla/localForage "localForage"
