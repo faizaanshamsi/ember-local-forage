@@ -4,17 +4,17 @@ Easily add [localForage][localForage] to your ember-cli app.
 
 ## Usage
 
-This addon provides the ability to import localforage as an ES6 module.
+This addon provides the ability to import localForage as an ES6 module:
 
 ```javascript
 import localforage from 'ember-local-forage';
 
-localforage.setItem('key', 'value') //returns a promise
+localforage.setItem('key', 'value');
 ```
 
 For more information on how to use localForage see the [localForage][localForage] documentation.
 
-An simple example is provided in the `user-data` component in the dummy app.
+An example is provided in the `user-data` component in the dummy app.
 
 ## Installation
 
