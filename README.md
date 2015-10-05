@@ -1,5 +1,12 @@
 # ember-local-forage
 
+[![Build Status](https://travis-ci.org/faizaanshamsi/ember-local-forage.svg?branch=master)](https://travis-ci.org/faizaanshamsi/ember-local-forage)
+[![Dependency Status](https://david-dm.org/faizaanshamsi/ember-local-forage.svg)](https://david-dm.org/faizaanshamsi/ember-local-forage)
+[![devDependency Status](https://david-dm.org/faizaanshamsi/ember-local-forage/dev-status.svg)](https://david-dm.org/faizaanshamsi/ember-local-forage#info=devDependencies)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-local-forage.svg)](http://emberobserver.com/addons/ember-local-forage)
+[![npm version](https://badge.fury.io/js/ember-local-forage.svg)](http://badge.fury.io/js/ember-local-forage)
+[![Code Climate](https://codeclimate.com/github/faizaanshamsi/ember-local-forage/badges/gpa.svg)](https://codeclimate.com/github/faizaanshamsi/ember-local-forage)
+
 Easily add [localForage][localForage] to your ember-cli app.
 
 ## Usage
