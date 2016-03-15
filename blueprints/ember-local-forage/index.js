@@ -6,7 +6,7 @@ module.exports = {
 
   afterInstall: function(options) {
     return this.addBowerPackagesToProject([
-      { name: 'localforage', target: '~1.2.10' }
+      { name: 'localforage', target: '~1.4.0' }
     ]);
   }
 };
